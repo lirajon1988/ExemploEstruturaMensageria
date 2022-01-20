@@ -11,4 +11,6 @@ Em resumo, se tiver o docker instalado na máquina pode instalar a imagem usando
   
   
  Para abrir o manager do Rabbit MQ, basta digitar no browser o endereço localhost:15672
+ 
+ Por motivo de pressa ao desenvolver, os projetos não estão com Swagger habilitado. Portanto é necessário testar com Postman.
 

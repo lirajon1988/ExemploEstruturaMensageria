@@ -5,7 +5,7 @@ Executei o projeto instalando a imagem e criando um container utilizando o tutor
 
   https://www.rabbitmq.com/download.html
 
-Em resumo, se tiver o docker instalado na máquina pode instalar a imagem usando o comando abaixo:
+Em resumo, se tiver o docker instalado na máquina pode instalar a imagem usando o comando abaixo no Prompt de comando ou no Powershell (acho melhor o Powershell porque ele destaca os comandos):
 
   docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management
   

@@ -11,5 +11,12 @@ Em resumo, se tiver o Docker Desktop instalado na máquina pode instalar a image
  
 Para abrir o manager do Rabbit MQ, basta digitar no browser o endereço localhost:15672, utilizando a senha de convidado padrão (user: guest, senha: guest)
  
-Os projetos não estão com Swagger habilitado. Portanto é necessário testar com Postman.
+Os projetos não estão com Swagger habilitado. Portanto é necessário testar os métodos com Postman.
 
+
+Os projetos estão estruturados da seguinte forma:
+
+Produtor: projeto para produzir mensagens.
+Consumidor: projeto em backgroud services para consumir as mensagens
+Rabbit: projeto com métodos para inserir as mensagens para fila
+Domain Classes: projeto librarires com Classes POCO utilizadas por todos os outros projetos.

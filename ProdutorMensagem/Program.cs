@@ -21,6 +21,7 @@ namespace ProdutorMensagem
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    
                 });
     }
 }

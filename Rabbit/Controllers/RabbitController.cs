@@ -32,8 +32,8 @@ namespace Rabbit.Controllers
                 using (var channel = connection.CreateModel())
                 {
                     channel.QueueDeclare(queue: request.QueueName, durable: true, exclusive: false, autoDelete: false, arguments: null);
-                    //Fala para a fila não encaminha mais do que uma mensagem para o consumidor
-                    //De forma que um consumidor ocupado não 
+                    //Fala para a fila não encaminhar mais do que uma mensagem para o consumidor
+                    //De forma que um consumidor ocupado não possa receber mais de uma mensagem
                     channel.BasicQos(0, 1, false);
 
                     var message = request.Mensagem;

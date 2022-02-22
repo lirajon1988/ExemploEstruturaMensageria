@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdutorMensagem", "Produto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit", "Rabbit\Rabbit.csproj", "{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumidorMensagemConsole", "ConsumidorMensagemConsole\ConsumidorMensagemConsole.csproj", "{73DF2761-1E69-496C-B3B3-10CD56725F1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DF2761-1E69-496C-B3B3-10CD56725F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DF2761-1E69-496C-B3B3-10CD56725F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DF2761-1E69-496C-B3B3-10CD56725F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DF2761-1E69-496C-B3B3-10CD56725F1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

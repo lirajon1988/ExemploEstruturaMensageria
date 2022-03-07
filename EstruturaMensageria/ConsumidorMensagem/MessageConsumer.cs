@@ -30,7 +30,7 @@ namespace ConsumidorMensagem
         {
             var consumer = new EventingBasicConsumer(_channel);
             consumer.Received += (sender, eventargs) =>
-            {
+            { 
                 var contentArray = eventargs.Body.ToArray();
                 var contentString = Encoding.UTF8.GetString(contentArray);
                 var message = JsonConvert.DeserializeObject<DomainClasses.Rabbit>(contentString);

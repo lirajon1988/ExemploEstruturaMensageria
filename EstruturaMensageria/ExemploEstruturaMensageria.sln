@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdutorMensagem", "Produto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rabbit", "Rabbit\Rabbit.csproj", "{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumidorMensagemConsole", "ConsumidorMensagemConsole\ConsumidorMensagemConsole.csproj", "{3C8B1DC3-601E-47AD-B019-BC2BDBA797FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24F55F93-17D5-428C-A25F-4AA3EBEEFACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8B1DC3-601E-47AD-B019-BC2BDBA797FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8B1DC3-601E-47AD-B019-BC2BDBA797FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8B1DC3-601E-47AD-B019-BC2BDBA797FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8B1DC3-601E-47AD-B019-BC2BDBA797FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
